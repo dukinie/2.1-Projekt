@@ -14,7 +14,7 @@ dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 bbt = BBT(token = 'token_ETi11MmuSiyYBM62')
 
 ### Define the wait period between readings (default is 5 minutes in seconds)
-period = 300
+period = 3
 
 ### Change channel name as suits - in this instance, it is called BME6802
 temp_resource = Resource(bbt, 'Test', 'temperature')
